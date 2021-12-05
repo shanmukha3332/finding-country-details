@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Lato', sans-serif;
+  }
+
+  body{
+
+      background-color: rgb(51, 255, 153);
+      color: rgb(11, 12, 2);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height : 100vh;
+      
+
+  } 
+ 
+  .container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .datacontainer {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+
+
+    font-size: 10rem;
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  
+  .img {
+    width: 500px;
+    height: 220px;
+    object-fit: cover;
+    background-color: #eee;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+  }
+  .countryName:hover{
+    color: rgb(25, 111, 223);
+  }
+  .topheading{
+    display: flex;
+    justify-self: center;
+    text-decoration: underline;
+
+
+    font-size: xx-large;
+    margin-bottom: 10px;
+    color: rgb(7, 7, 7);
+    
+  }
+
+  .inputbox{
+    padding: 10px 14px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    width: 250px;
+    outline: none; 
+    background-color: #fff;
+    margin-left:10px;
+  }
+  .submit-btn{
+    border: none;
+    font-size: 1.02rem;
+    padding: 9px 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin: 10px 10px;
+  }
+  .container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detailsbox{
+    background-color: #fff;
+    box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+    width: 500px;
+    border-radius: 0.7rem;
+    margin: 0 3rem;
+    padding-bottom: 30px;
+  }
+  
+  .details, pre{
+    padding-left: 20px ;
+    padding-top: 10px;
+  }
+
+  #name{
+    font-size: x-large;
+  }
+
+  .exception{
+    font-size:x-large;
+    height:150px; 
+    padding-left: 25px;
+    padding-top: 30px;
+  }
